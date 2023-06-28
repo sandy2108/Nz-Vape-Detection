@@ -50,7 +50,7 @@ const Services = () => {
           className="rounded-2xl border-2 border-[#999999] overflow-hidden"
         >
           <div>
-            <Image src={card.imageSrc} height={200} width={400} layout="responsive" />
+            <Image src={card.imageSrc} alt="/" height={200} width={400} layout="responsive" />
           </div>
           <div className="mt-5 p-2 text-left">
           <h1 className=" font-Inter font-bold text-2xl tracking-tight text-white leading-tight">

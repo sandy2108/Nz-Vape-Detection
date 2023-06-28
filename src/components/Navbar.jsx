@@ -69,7 +69,7 @@ const Navbar = () => {
               </div>
 
               {items.map((item, index) => (
-                <Link href={`/${item.to}`} >
+                <Link href={`/${item.to}`}  key={index} >
                 <li
                   key={index}
                   className="mx-2 my-6  font-mono font-bold hover:text-[#C004de] cursor-pointer text-lg text-[#FFFFFF]  w-full "

@@ -13,7 +13,7 @@ const Hero = () => {
            Expert Vape Detection Installation Services
           </h1>
           <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
-          Discover exclusive deals on NZ VaporSecure's advanced vape detection solutions in Auckland, NZ. Enhance safety in schools, colleges, offices, apartments, and beyond with cutting-edge technology for a smoke-free environment.
+          Discover exclusive deals on NZ VaporSecures advanced vape detection solutions in Auckland, NZ. Enhance safety in schools, colleges, offices, apartments, and beyond with cutting-edge technology for a smoke-free environment.
           </p>
           <Link
             href="Request_quote"

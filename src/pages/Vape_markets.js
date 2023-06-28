@@ -3,7 +3,7 @@ import Head from "next/head";
 import VapeMarket from "@/components/VapeMarket";
 import Markets from "@/components/Markets";
 
-export default function () {
+const Vape_markets = () => {
   return (
    <>
     <Head>
@@ -18,3 +18,5 @@ export default function () {
    </>
   );
 }
+
+export default Vape_markets;
