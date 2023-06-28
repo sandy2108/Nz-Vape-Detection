@@ -1,6 +1,6 @@
-import ServiceArea from '@/components/ServiceArea'
-import Contact from '@/components/contact'
-import Form from '@/components/form'
+import ServiceArea from '../components/ServiceArea'
+import Contact from '../components/contact'
+import Form from '../components/form'
 import React from 'react'
 import Head from 'next/head'
 
