@@ -9,7 +9,7 @@ const Markets = () => {
       benefits: [
         'Protect students health',
         'Maintain compliance with regulations',
-        'Foster a conducive learning environment'
+        'To Foster a conducive learning environment'
       ]
     },
     {
@@ -33,23 +33,23 @@ const Markets = () => {
   ];
 
   return (
-    <div className='w-full dark:bg-gray-900'>
+    <div className='w-full bg-gray-900'>
       <div className='max-w-[1240px] mx-auto p-4'>
-        <section className="bg-white dark:bg-gray-900 py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
+        <section className=" py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
           <div className="mx-auto max-w-screen-md text-center mb-8 lg:mb-12">
-            <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Vape Detection for business teams like yours</h2>
-            <p className="mb-5 font-light text-gray-500 sm:text-xl dark:text-gray-400">We also offer vape detection solutions for other markets and industries. Contact us to discuss your specific requirements.</p>
+            <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-white ">Vape Detection for business teams like yours</h2>
+            <p className="mb-5 font-light text-gray-400 sm:text-xl ">We also offer vape detection solutions for other markets and industries. Contact us to discuss your specific requirements.</p>
           </div>
           <div className="space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0">
             {markets.map((market, index) => (
-              <div key={index} className="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
+              <div key={index} className="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900  rounded-lg border  shadow border-gray-600 xl:p-8bg-gray-800 ">
                 <h3 className="mb-4 text-2xl font-bold text-[#be123c]">{market.title}</h3>
                 <p className="font-light text-gray-100 sm:text-lg mb-10 ">{market.description}</p>
                 <div>
                   <ul role="list" className="mb-8 space-y-4 text-left">
                     {market.benefits.map((benefit, index) => (
                       <li key={index} className="flex items-center space-x-3">
-                        <svg style={{ transform: 'rotate(90deg)' }} className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                        <svg style={{ transform: 'rotate(90deg)' }} className="flex-shrink-0 w-5 h-5 text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                           <path fillRule="evenodd" d="M2.293 9.707a1 1 0 010-1.414L7.586 3.95a1 1 0 011.414 0l6.293 6.293a1 1 0 01-1.414 1.414L9 6.414V16a1 1 0 11-2 0V6.414L3.707 9.121a1 1 0 01-1.414.586z" clipRule="evenodd" />
                         </svg>
                         <span className="font-light text-gray-400">{benefit}</span>

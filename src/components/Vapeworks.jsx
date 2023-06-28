@@ -50,14 +50,14 @@ const Vapeworks = () => {
             <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900">
               How Vape Detection Works
             </h2>
-            <p className="text-gray-500 sm:text-xl dark:text-gray-400">
+            <p className="text-gray-500 sm:text-xl ">
               Our mission is to help businesses create safe and compliant environments by detecting and preventing the use of vaping devices and substances.
             </p>
           </div>
           <div className="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
             {data.map((item, index) => (
               <div key={index}>
-                <div className="flex justify-center  items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
+                <div className="flex justify-center  items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 ">
                   <Image src={item.icon} alt="/"/>
                 </div>
                 <h3 className="mb-2 text-xl font-bold text-gray-800">{item.title}</h3>

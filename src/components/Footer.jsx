@@ -35,7 +35,7 @@ const Footer = () => {
             </div>
           </div>
           <div class="sm:flex my-3 sm:items-center sm:justify-between">
-            <span class="text-sm ml-2 text-gray-500 sm:text-center dark:text-gray-400">
+            <span class="text-sm ml-2 text-gray-500 sm:text-center">
               © 2023{" "}
               <a href="https://flowbite.com" class="hover:underline">
                 NZ VAPE DETECTION™

@@ -6,14 +6,14 @@ import Link from "next/link";
 const VapeMarket = () => {
   return (
     <div>
-    <section className="bg-white dark:bg-gray-900 ">
+    <section className="bg-gray-900 ">
       <div className="max-w-[1240px] mx-auto">
         <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-20 lg:grid-cols-12">
           <div className="mr-auto place-self-center lg:col-span-7">
-            <h1 className="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">
+            <h1 className="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl text-white">
               Vape Detection Solutions for Markets
             </h1>
-            <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
+            <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl">
               At NZ Vape Detection, we understand the diverse needs of different
               markets. Our vape detection systems are tailored to provide
               reliable solutions for schools, colleges, apartments, senior
@@ -39,7 +39,7 @@ const VapeMarket = () => {
             </Link>
             <Link
               href="tel:021 023 26040"
-              className="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
+              className="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center  border border-gray-300 rounded-lg  focus:ring-4  text-white  hover:bg-gray-700 focus:ring-gray-800"
             >
               Contact us
             </Link>
