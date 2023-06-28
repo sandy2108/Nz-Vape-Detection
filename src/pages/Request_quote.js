@@ -1,7 +1,6 @@
 import ServiceArea from '../components/ServiceArea'
-import Contact from '../components/contact'
-import Form from '../components/form'
-import React from 'react'
+import Contact from '../components/Contact'
+import Form from '../components/Form'
 import Head from 'next/head'
 
 export default function Request_quote() {
